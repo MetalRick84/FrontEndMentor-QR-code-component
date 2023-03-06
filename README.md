@@ -21,8 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Screenshot - Solution](/images/640x360-TVtestbild.jpeg)
-*Screenshot coming soon*
+![Screenshot - Solution](/images/solution-screenshot.png)
 
 ### Links
 
