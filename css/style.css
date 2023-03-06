@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* --------------------RESET-------------------- */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* --------------------TYPOGRAPHY-------------------- */
+
+* {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+/* --------------------LAYOUT-------------------- */
+
+body {
+    height: 100vh;
+    height: 100svh;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 1em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.card-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.card-title {
+    margin-top: 1em;
+}
+
+.card-description {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.attribution {
+    width: 100%;
+}
+
+/* --------------------STYLE-------------------- */
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+    border-radius: 20px;
+    background-color: white;
+}
+
+.card-image {
+    border-radius: 10px;
+}
+
+.myname {
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* --------------------LAYOUT-mobile-------------------- */
+body {
+    width: 375px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+}
+
+/* --------------------LAYOUT-desktop-------------------- */
+
+@media screen and (min-width: 1440px) {
+    body {
+        width: 1440px;
+    }
+
+    .card {
+        width: 20%;
+    }
+}
+
+
+/* -------------------- DEBUG -------------------- */
+
+/*
+html {
+    background-color: black;
+}
+*/
+
+
